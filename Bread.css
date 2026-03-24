@@ -82,7 +82,7 @@ main:before {
 main {
 	background: none;
 	position: relative;
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 }
 .profile h1 {
 	border: 2px solid #113625;
@@ -131,7 +131,7 @@ main {
 	padding: .5em;
 	border: 2px solid #113625;
 	background: var(--blue-gradient);
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
@@ -179,7 +179,7 @@ nav:after {
 .profile .contact .heading h4:after {
 	content: "ðŸ’¬ start";
 	font-size: 1.4rem;
-	font-family: sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-weight: bold;
 	font-style: italic;
 	text-shadow: 2px 2px 5px #0007;
@@ -232,7 +232,7 @@ nav:after {
 	background-clip: padding-box;
 	padding: 1em;
 	background: var(--blue-gradient);
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
@@ -240,7 +240,7 @@ nav:after {
 }
 .left .table-section .inner, .left .table-section .details-table td, .left .table-section .details-table td:first-child {
 	width: 100%;
-	background: #E7E4CF;
+	background: #cfe7d4;
 }
 .left .table-section .details-table td:first-child p {
 	padding: .3em .3em 1em .3em;
@@ -298,7 +298,7 @@ nav:after {
 	padding: .5em;
 	border: 2px solid #113625;
 	background: var(--blue-gradient);
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
@@ -321,7 +321,7 @@ nav:after {
 	padding: .7em;
 	border: 2px solid #113625;
 	background: var(--blue-gradient);
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
@@ -337,10 +337,10 @@ nav:after {
 	background-color:#cfe7d4;
 }
 .comments-table td{
-	background:#cfe7d4FFF;
+	background:#cfe7d4;
 }
 .profile .right .comments-table td:first-child{
-	background:#F8F6F0;
+	background:#cfe7d4;
 	border-right:1px solid #BEBBAA;
 	border-bottom:1px solid #BEBBAA;
 }

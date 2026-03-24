@@ -9,6 +9,48 @@ body {
 	background-position: center;
 	background-attachment: fixed;
 }
+
+
+
+h1 {
+  	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #cfe7d4;
+	font-size: 32px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #cfe7d4;
+	font-size: 24px;
+}
+h3 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #cfe7d4;
+	font-size: 16px;
+}
+
+h4 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #cfe7d4;
+	font-size: 12px;
+}
+
+
+
+
+
 body:before {
 	content: " ";
 	height: 100vh;
@@ -83,15 +125,6 @@ main {
 	background: none;
 	position: relative;
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-}
-.profile h1 {
-	border: 2px solid #113625;
-	border-radius: 5px 5px 0 0;
-	padding: .5em;
-	color: #cfe7d4;
-	text-shadow: 2px 2px 0 #000;
-	background: var(--blue-gradient);
-	margin-bottom: 0;
 }
 .profile .left {
 	display: flex;
@@ -178,6 +211,7 @@ nav:after {
 }
 .profile .contact .heading h4:after {
 	content: "ðŸ’¬ start";
+	color: #000000;
 	font-size: 1.4rem;
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-weight: bold;
@@ -211,7 +245,7 @@ nav:after {
 .profile .url-info, .profile .profile-info {
 	background-color:#cfe7d4;
 	border: 0;
-	box-shadow: 2px 2px 0px #cfe7d4FFF inset, -2px -2px 0px #5D5C51 inset, 5px 8px 10px #0006;
+	box-shadow: 2px 2px 0px #cfe7d4 inset, -2px -2px 0px #5D5C51 inset, 5px 8px 10px #0006;
 	padding: 10px;
 }
 .profile .url-info p {
@@ -244,7 +278,7 @@ nav:after {
 }
 .left .table-section .details-table td:first-child p {
 	padding: .3em .3em 1em .3em;
-	border-bottom: 2px ridge #E7E4CF;
+	border-bottom: 2px ridge #cfe7d4;
 }
 .left .table-section .details-table td p {
 	padding: .3em;

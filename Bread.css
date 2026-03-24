@@ -1,23 +1,40 @@
 <style>
 :root {
-	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #24db3c 92%, #2f3d2f 100%) center/cover no-repeat;
+	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%) center/cover no-repeat;
 }
 
+
 body {
-	background-image: url('https://cdn.wcs.org/2024/03/13/21/14/05/2d2c6f1b-71c4-4390-b7e2-deb21a0bc11f/shutterstock_2331893385.jpg');
+	background-image: url('https://i.giphy.com/3og0IFrHkIglEOg8Ba.webp');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
+p {
+  	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #76f590;
+	font-size: 16px;
+}
 
+a {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #76f590;
+	font-size: 16px;
+}
 
 h1 {
   	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 2em;
 	font-weight: bold;
 	color: #000000;
-	text-shadow: 2px 2px #cfe7d4;
+	text-shadow: 2px 2px #76f590;
 	font-size: 32px;
 }
 
@@ -26,7 +43,7 @@ h2 {
 	font-size: 1em;
 	font-weight: bold;
 	color: #000000;
-	text-shadow: 2px 2px #cfe7d4;
+	text-shadow: 2px 2px #76f590;
 	font-size: 24px;
 }
 h3 {
@@ -34,7 +51,7 @@ h3 {
 	font-size: 1em;
 	font-weight: bold;
 	color: #000000;
-	text-shadow: 2px 2px #cfe7d4;
+	text-shadow: 2px 2px #76f590;
 	font-size: 16px;
 }
 
@@ -43,13 +60,35 @@ h4 {
 	font-size: 1em;
 	font-weight: bold;
 	color: #000000;
-	text-shadow: 2px 2px #cfe7d4;
+	text-shadow: 1px 1px #76f590;
 	font-size: 12px;
 }
 
+h5 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+	text-shadow: 2px 2px #76f590;
+	font-size: 12px;
+}
 
+.profile h1 {
+    border: 2px solid #113625;
+    border-radius: 5px 5px 0 0;
+    padding: .5em;
+    color: #000000;
+    text-shadow: 2px 2px #76f590;
+    background: var(--blue-gradient);
+    margin-bottom: 0;
+}
 
-
+div.top {
+	background: #cfe7d4
+}
+ul.links {
+	background: #cfe7d4
+}
 
 body:before {
 	content: " ";
@@ -92,19 +131,19 @@ nav:before {
 	content: "Homosexual Urges";
 	display: block;
 	padding: 1em;
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #24db3c 92%, #2f3d2f 100%) center/cover no-repeat;
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%) center/cover no-repeat;
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
-	text-shadow: 2px 2px 0px #000;
+	color:#000000
+	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
 }
 nav:after {
-	content: "X";
 	display: inline-block;
 	padding: .4em .6em;
 	width: fit-content;
 	border-radius: 5px;
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #24db3c 92%, #2f3d2f 100%);
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%)
 	border: 1px solid #cfe7d4;
 	position: absolute;
 	top: 0;
@@ -159,24 +198,23 @@ main {
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	content: "ðŸ™‚ Mood";
+	content: "Mood";
 	display: block;
 	padding: .5em;
 	border: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
-	text-shadow: 2px 2px 0px #000;
+	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
-	color: #cfe7d4;
+	color: #000000;
 }
 nav:after {
-	content: "X";
 	display: inline-block;
 	padding: .4em .6em;
 	width: fit-content;
 	border-radius: 5px;
-	background: linear-gradient(180deg, rgba(233,145,126,1) 0%, rgba(223,89,65,1) 29%, rgba(156,32,15,1) 100%);
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%)
 	border: 1px solid #cfe7d4;
 	position: absolute;
 	top: 0;
@@ -195,10 +233,10 @@ nav:after {
 }
 .left .contact {
 	border: 0;
-	background: linear-gradient(180deg, #0997ff, #0053ee 8%, #0050ee 40%, #06f 88%, #06f 93%, #005bff 95%, #003dd7 96%, #003dd7);
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%)
 }
 .profile .contact .heading {
-	background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center/cover no-repeat;
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%) center/cover no-repeat;
 	display: flex;
 	border-radius: 0 40px 50px 0;
 	align-items: center;
@@ -210,13 +248,12 @@ nav:after {
 	font-size: 0;
 }
 .profile .contact .heading h4:after {
-	content: "ðŸ’¬ start";
 	color: #000000;
 	font-size: 1.4rem;
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-weight: bold;
 	font-style: italic;
-	text-shadow: 2px 2px 5px #0007;
+	text-shadow: 1px 1px 5px #76f590;
 	padding-right: 1.2rem;
 	white-space: nowrap;
 }
@@ -231,15 +268,13 @@ nav:after {
 .profile .f-col a {
 	white-space: nowrap;
 	border: 1px solid #003c74;
-	background: linear-gradient(180deg,#366EF3,#2D69F4 86%,#1A3EB4);
 	border-radius: 3px;
 	padding: .5em;
 	margin-left: .3em;
 	font-weight: normal;
-	color: #cfe7d4;
+	color: #000000;
 }
 .profile .f-col a:hover {
-	background: linear-gradient(180deg,#1C35B4,#2450D7 86%,#1A3EB4);
 	text-decoration: none;
 }
 .profile .url-info, .profile .profile-info {
@@ -268,7 +303,7 @@ nav:after {
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
-	text-shadow: 2px 2px 0px #000;
+	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
 	color: #cfe7d4;
 }
@@ -327,16 +362,16 @@ nav:after {
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	content: "ðŸ“ Notepad";
+	content: "Notepad";
 	display: block;
 	padding: .5em;
 	border: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
-	text-shadow: 2px 2px 0px #000;
+	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
-	color: #cfe7d4;
+	color: #000000;
 }
 .profile .right .blurbs, .profile .right .friends{
 	margin-top: 1em;
@@ -357,13 +392,11 @@ nav:after {
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1em;
-	text-shadow: 2px 2px 0px #000;
+	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
 	color: #cfe7d4;
 }
-.profile .right .blurbs .heading h4:before{
-	content: "ðŸ’» ";
-}
+
 .profile .right .comments-table{
 	height:300px;
 	overflow-y:scroll;
@@ -381,5 +414,9 @@ nav:after {
 .comment-replies{
 	border: 0;
 	border-left: 5px solid #ffbd2e;
+}
+
+footer{
+background: #cfe7d4
 }
 </style>

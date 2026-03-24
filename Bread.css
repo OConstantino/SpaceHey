@@ -1,7 +1,7 @@
 <style>
 :root {
 	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
-	--dark-orange: #000000
+	--dark-orange: #000000;
 	
 }
 
@@ -80,10 +80,10 @@ div {
 }
 
 div.top {
-	background: #cfe7d4
+	background: #cfe7d4;
 }
 ul.links {
-	background: #cfe7d4
+	background: #cfe7d4;
 }
 
 body:before {
@@ -133,7 +133,7 @@ nav:before {
 	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 1.5em;
-	color:#000000
+	color:#000000;
 	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
 }
@@ -412,6 +412,6 @@ nav:after {
 }
 
 footer{
-background: #cfe7d4
+background: #cfe7d4;
 }
 </style>

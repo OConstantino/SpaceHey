@@ -1,9 +1,10 @@
+<style>
 :root {
-	--blue-gradient: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
+	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #24db3c 92%, #2f3d2f 100%) center/cover no-repeat;
 }
 
 body {
-	background-image: url('https://s3.amazonaws.com//depot.pacdudegames.com/spacehey/bliss.jpg');
+	background-image: url('https://cdn.wcs.org/2024/03/13/21/14/05/2d2c6f1b-71c4-4390-b7e2-deb21a0bc11f/shutterstock_2331893385.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -17,11 +18,11 @@ body:before {
 	top: 0;
 	left: 0;
 	z-index: 100;
-	background-image: url('https://media.giphy.com/media/LbSdXQbS0XVVC/giphy.gif');
+	background-image: url('https://c.tenor.com/UF8qfTLnQasAAAAd/tenor.gif');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	animation: yourAnimation 3s ease 0s 1 normal forwards;
+	animation: yourAnimation 2s ease 0s 1 normal forwards;
 	pointer-events: none;
 }
 @keyframes yourAnimation { 0.0% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
@@ -32,24 +33,24 @@ nav, footer {
 }
 footer{
 	margin-bottom:3rem;
-	border:2px solid #1D43D1;
+	border:2px solid #1dd14a;
 }
 nav .top, nav .links {
-	border-left: 2px solid #1D43D1;
-	border-right: 2px solid #1D43D1;
+	border-left: 2px solid #1dd14a;
+	border-right: 2px solid #1dd14a;
 }
 nav .info{
-	border-left: 2px solid #1D43D1;
-	border-right: 2px solid #1D43D1;
+	border-left: 2px solid #1dd14a;
+	border-right: 2px solid #1dd14a;
 }
 nav .links {
-	border-bottom: 2px solid #1D43D1;
+	border-bottom: 2px solid #1dd14a;
 }
 nav:before {
-	content: "SpaceHey Header";
+	content: "Homosexual Urges";
 	display: block;
 	padding: 1em;
-	background: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #24db3c 92%, #2f3d2f 100%) center/cover no-repeat;
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
@@ -208,7 +209,7 @@ nav:after {
 	text-decoration: none;
 }
 .profile .url-info, .profile .profile-info {
-	background-color: #E7E5CF;
+	background-color:#cfe7d4;
 	border: 0;
 	box-shadow: 2px 2px 0px #FFFFFF inset, -2px -2px 0px #5D5C51 inset, 5px 8px 10px #0006;
 	padding: 10px;
@@ -333,7 +334,7 @@ nav:after {
 	height:300px;
 	overflow-y:scroll;
 	display:block;
-	background-color:#E7E4CF;
+	background-color:#cfe7d4;
 }
 .comments-table td{
 	background:#FFFFFF;
@@ -347,3 +348,4 @@ nav:after {
 	border: 0;
 	border-left: 5px solid #ffbd2e;
 }
+</style>

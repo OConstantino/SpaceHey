@@ -1,6 +1,6 @@
 <style>
 :root {
-	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%) center/cover no-repeat;
+	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
 }
 
 
@@ -12,43 +12,35 @@ body {
 }
 
 p {
-  	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-size: 2em;
-	font-weight: bold;
 	color: #000000;
 	text-shadow: 2px 2px #76f590;
 	font-size: 16px;
 }
 
 a {
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 2em;
-	font-weight: bold;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	color: #000000;
 	text-shadow: 2px 2px #76f590;
 	font-size: 16px;
 }
 
 h1 {
-  	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 2em;
-	font-weight: bold;
+  	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	color: #000000;
 	text-shadow: 2px 2px #76f590;
 	font-size: 32px;
 }
 
 h2 {
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 1em;
-	font-weight: bold;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	color: #000000;
 	text-shadow: 2px 2px #76f590;
 	font-size: 24px;
 }
 h3 {
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 1em;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-weight: bold;
 	color: #000000;
 	text-shadow: 2px 2px #76f590;
@@ -56,17 +48,15 @@ h3 {
 }
 
 h4 {
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 1em;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-weight: bold;
 	color: #000000;
 	text-shadow: 1px 1px #76f590;
-	font-size: 12px;
+	font-size: 0.9em;
 }
 
 h5 {
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 1em;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	font-weight: bold;
 	color: #000000;
 	text-shadow: 2px 2px #76f590;
@@ -81,6 +71,10 @@ h5 {
     text-shadow: 2px 2px #76f590;
     background: var(--blue-gradient);
     margin-bottom: 0;
+}
+
+div {
+	color: #000000;
 }
 
 div.top {
@@ -114,26 +108,26 @@ nav, footer {
 }
 footer{
 	margin-bottom:3rem;
-	border:2px solid #1dd14a;
+	border:2px solid #113625;
 }
 nav .top, nav .links {
-	border-left: 2px solid #1dd14a;
-	border-right: 2px solid #1dd14a;
+	border-left: 2px solid #113625;
+	border-right: 2px solid #113625;
 }
 nav .info{
-	border-left: 2px solid #1dd14a;
-	border-right: 2px solid #1dd14a;
+	border-left: 2px solid #113625;
+	border-right: 2px solid #113625;
 }
 nav .links {
-	border-bottom: 2px solid #1dd14a;
+	border-bottom: 2px solid #113625;
 }
 nav:before {
 	content: "Homosexual Urges";
 	display: block;
 	padding: 1em;
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%) center/cover no-repeat;
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	font-size: 1em;
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 1.5em;
 	color:#000000
 	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
@@ -143,7 +137,7 @@ nav:after {
 	padding: .4em .6em;
 	width: fit-content;
 	border-radius: 5px;
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%)
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
 	border: 1px solid #cfe7d4;
 	position: absolute;
 	top: 0;
@@ -201,20 +195,21 @@ main {
 	content: "Mood";
 	display: block;
 	padding: .5em;
-	border: 2px solid #113625;
+	border-top: 2px solid #113625;
 	background: var(--blue-gradient);
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 1em;
-	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-weight: bold;
 	color: #000000;
+	text-shadow: 1px 1px #76f590;
+	font-size: 1.35em;
 }
 nav:after {
 	display: inline-block;
 	padding: .4em .6em;
 	width: fit-content;
 	border-radius: 5px;
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%)
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
 	border: 1px solid #cfe7d4;
 	position: absolute;
 	top: 0;
@@ -233,16 +228,10 @@ nav:after {
 }
 .left .contact {
 	border: 0;
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%)
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
 }
 .profile .contact .heading {
-	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #2f3d2f 92%, #2f3d2f 100%) center/cover no-repeat;
-	display: flex;
-	border-radius: 0 40px 50px 0;
-	align-items: center;
-	-webkit-filter: drop-shadow(0px 0px 7px #000);
-	box-shadow: -2px -2px 10px rgba(0,0,0,.25) inset, 2px 2px 10px rgba(0,0,0,0.5) inset;
-	margin-right: .5em;
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
 }
 .profile .contact .heading h4 {
 	font-size: 0;
@@ -302,7 +291,7 @@ nav:after {
 	padding: 1em;
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 1em;
+	font-size: 1.5em;
 	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
 	color: #cfe7d4;
@@ -365,13 +354,14 @@ nav:after {
 	content: "Notepad";
 	display: block;
 	padding: .5em;
-	border: 2px solid #113625;
+	border-top: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 1em;
-	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
+	font-weight: bold;
 	color: #000000;
+	text-shadow: 1px 1px #76f590;
+	font-size: 1.35em;
 }
 .profile .right .blurbs, .profile .right .friends{
 	margin-top: 1em;
@@ -388,10 +378,10 @@ nav:after {
 	background-clip: padding-box;
 	display: block;
 	padding: .7em;
-	border: 2px solid #113625;
+	border-top: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-	font-size: 1em;
+	font-size: 1.5em;
 	text-shadow: 2px 2px 0px #76f590;
 	border-radius: 10px 10px 0 0;
 	color: #cfe7d4;

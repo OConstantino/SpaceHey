@@ -7,7 +7,7 @@
 
 
 body {
-	background-image: url('https://i.giphy.com/3og0IFrHkIglEOg8Ba.webp');
+	background-image: url('https://i.pinimg.com/originals/00/41/46/004146e7c8150ebb99add5c8da8b5c5d.gif');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -152,7 +152,7 @@ nav:after {
 	pointer-events: none;
 }
 main:before {
-	content: url('https://media.giphy.com/media/w3AmrG1E1vr56/giphy.gif');
+	content: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhyb3hlaXBqM2E1NDRiY2ttdHBza3dvNmoyM3poamlsa3lnM3g1ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KyniHA7YflR1UPgsZ8/giphy.gif");
 	position: fixed;
 	bottom: 0;
 	right: 0;

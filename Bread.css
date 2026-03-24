@@ -1,6 +1,8 @@
 <style>
 :root {
 	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;
+	--dark-orange: #000000
+	
 }
 
 
@@ -122,7 +124,10 @@ nav .links {
 	border-bottom: 2px solid #113625;
 }
 nav:before {
-	content: "Homosexual Urges";
+	border-top: 2px solid #113625;
+	border-left: 2px solid #113625;
+	border-right: 2px solid #113625;
+	content: "Man, I Love Frogs";
 	display: block;
 	padding: 1em;
 	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover no-repeat;

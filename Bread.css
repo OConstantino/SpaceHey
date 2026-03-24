@@ -62,8 +62,8 @@ nav:after {
 	padding: .4em .6em;
 	width: fit-content;
 	border-radius: 5px;
-	background: linear-gradient(180deg, rgba(233,145,126,1) 0%, rgba(223,89,65,1) 29%, rgba(156,32,15,1) 100%);
-	border: 1px solid #FFF;
+	background: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #24db3c 92%, #2f3d2f 100%);
+	border: 1px solid #cfe7d4;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -85,10 +85,10 @@ main {
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 .profile h1 {
-	border: 2px solid #1B44B8;
+	border: 2px solid #113625;
 	border-radius: 5px 5px 0 0;
 	padding: .5em;
-	color: #FFF;
+	color: #cfe7d4;
 	text-shadow: 2px 2px 0 #000;
 	background: var(--blue-gradient);
 	margin-bottom: 0;
@@ -99,10 +99,10 @@ main {
 	width: 100%;
 }
 .profile .general-about {
-	background: #FFF;
-	border-left: 2px solid #1B44B8;
-	border-right: 2px solid #1B44B8;
-	border-bottom: 2px solid #1B44B8;
+	background: #cfe7d4;
+	border-left: 2px solid #113625;
+	border-right: 2px solid #113625;
+	border-bottom: 2px solid #113625;
 	padding: 1em;
 	box-shadow: 5px 8px 10px #0006;
 }
@@ -111,12 +111,12 @@ main {
 }
 .profile .left .mood {
 	margin-top: 1em;
-	background: #FFF;
+	background: #cfe7d4;
 	border-radius: 11px 11px 0 0;
 	box-shadow: 5px 8px 10px #0006;
-	border-left: 2px solid #1B44B8;
-	border-right: 2px solid #1B44B8;
-	border-bottom: 2px solid #1B44B8;
+	border-left: 2px solid #113625;
+	border-right: 2px solid #113625;
+	border-bottom: 2px solid #113625;
 }
 .profile .left .mood p {
 	margin-left: 1em;
@@ -129,13 +129,13 @@ main {
 	content: "ðŸ™‚ Mood";
 	display: block;
 	padding: .5em;
-	border: 2px solid #1B44B8;
+	border: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
-	color: #FFF;
+	color: #cfe7d4;
 }
 nav:after {
 	content: "X";
@@ -144,7 +144,7 @@ nav:after {
 	width: fit-content;
 	border-radius: 5px;
 	background: linear-gradient(180deg, rgba(233,145,126,1) 0%, rgba(223,89,65,1) 29%, rgba(156,32,15,1) 100%);
-	border: 1px solid #FFF;
+	border: 1px solid #cfe7d4;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -202,7 +202,7 @@ nav:after {
 	padding: .5em;
 	margin-left: .3em;
 	font-weight: normal;
-	color: #FFF;
+	color: #cfe7d4;
 }
 .profile .f-col a:hover {
 	background: linear-gradient(180deg,#1C35B4,#2450D7 86%,#1A3EB4);
@@ -211,7 +211,7 @@ nav:after {
 .profile .url-info, .profile .profile-info {
 	background-color:#cfe7d4;
 	border: 0;
-	box-shadow: 2px 2px 0px #FFFFFF inset, -2px -2px 0px #5D5C51 inset, 5px 8px 10px #0006;
+	box-shadow: 2px 2px 0px #cfe7d4FFF inset, -2px -2px 0px #5D5C51 inset, 5px 8px 10px #0006;
 	padding: 10px;
 }
 .profile .url-info p {
@@ -219,7 +219,7 @@ nav:after {
 }
 .left .table-section {
 	border-radius: 10px 10px 0 0;
-	border: 2px solid #1B44B8;
+	border: 2px solid #113625;
 	box-shadow: 5px 8px 10px #0006;
 }
 .left .table-section .details-table tr {
@@ -236,7 +236,7 @@ nav:after {
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
-	color: #FFF;
+	color: #cfe7d4;
 }
 .left .table-section .inner, .left .table-section .details-table td, .left .table-section .details-table td:first-child {
 	width: 100%;
@@ -277,12 +277,12 @@ nav:after {
 
 .profile .right .blog-preview {
 	margin-top: 1em;
-	background: #FFF;
+	background: #cfe7d4;
 	border-radius: 11px 11px 0 0;
 	box-shadow: 5px 8px 10px #0006;
-	border-left: 3px solid #1B44B8;
-	border-right: 2px solid #1B44B8;
-	border-bottom: 2px solid #1B44B8;
+	border-left: 3px solid #113625;
+	border-right: 2px solid #113625;
+	border-bottom: 2px solid #113625;
 }
 .profile .right .blog-preview p, .profile .right .blog-preview h4 {
 	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
@@ -296,22 +296,22 @@ nav:after {
 	content: "ðŸ“ Notepad";
 	display: block;
 	padding: .5em;
-	border: 2px solid #1B44B8;
+	border: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
-	color: #FFF;
+	color: #cfe7d4;
 }
 .profile .right .blurbs, .profile .right .friends{
 	margin-top: 1em;
-	background: #FFF;
+	background: #cfe7d4;
 	border-radius: 11px 11px 0 0;
 	box-shadow: 5px 8px 10px #0006;
-	border-left: 3px solid #1B44B8;
-	border-right: 2px solid #1B44B8;
-	border-bottom: 2px solid #1B44B8;
+	border-left: 3px solid #113625;
+	border-right: 2px solid #113625;
+	border-bottom: 2px solid #113625;
 }
 .profile .right .blurbs .heading, .profile .right .friends .heading{
 	-moz-background-attachment-clip: padding;
@@ -319,13 +319,13 @@ nav:after {
 	background-clip: padding-box;
 	display: block;
 	padding: .7em;
-	border: 2px solid #1B44B8;
+	border: 2px solid #113625;
 	background: var(--blue-gradient);
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
 	border-radius: 10px 10px 0 0;
-	color: #FFF;
+	color: #cfe7d4;
 }
 .profile .right .blurbs .heading h4:before{
 	content: "ðŸ’» ";
@@ -337,7 +337,7 @@ nav:after {
 	background-color:#cfe7d4;
 }
 .comments-table td{
-	background:#FFFFFF;
+	background:#cfe7d4FFF;
 }
 .profile .right .comments-table td:first-child{
 	background:#F8F6F0;

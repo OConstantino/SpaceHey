@@ -1,6 +1,6 @@
 <style>
 :root {
-	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover repeat; width: 40%; height: 100%;
+	--blue-gradient: linear-gradient(to bottom, #24db73 0%, #24db3c 9%, #24db3c 18%, #7AE188 72%, #cfe7d4 100%) center/cover repeat; width: 44%; height: 100%;
 	--dark-orange: #000000;
 	
 }
